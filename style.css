@@ -1,0 +1,49 @@
+.container {
+    background-color: silver;
+    width: 400px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.line {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.end {
+    margin-bottom: 0px;
+}
+.display {
+    text-align: end;
+    font-size: 20px;
+    height: 80px;
+    background-color: #EFEFEF;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.display p {
+    margin: 10px 10px 10px 0px;
+}
+.display p:first-child {
+    font-weight: bold;
+    font-size: 26px;
+}
+.inline {
+    display: inline;
+}
+button {
+    font-size: 20px;
+    height: 50px;
+    flex: 1;
+    border: none;
+}
+button.effect:hover {
+    background-color: orange;
+}
+.clear {
+    background-color: #33FFFF;
+}
+.backspace {
+    background-color: red;
+}
